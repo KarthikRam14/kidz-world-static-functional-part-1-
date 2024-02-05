@@ -100,9 +100,9 @@ function updateCart() {
 
 for (let i = 0; i < addButton.length; i++) {
   addButton[i].onclick = () => {
-    items[i].quantity++;
-    updateCart();
-  };
+    items[i].quantity++
+    updateCart()
+  }
 }
 
 var totalDollars = 0;
